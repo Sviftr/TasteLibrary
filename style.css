@@ -81,4 +81,10 @@
 .header__linkv {
   color: #000000;
   text-decoration: none;
+}
+
+.main {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
