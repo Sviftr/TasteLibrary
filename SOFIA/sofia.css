@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+    .block__1s{
+    max-width: 1100px;
+    background-color: #021222;
+    }
+    .text__1-s{
+    color: #ffffff;
+    text-decoration: underline;
+}
+    .text__2-s{
+    color: #ffffff;
+    
+}
+.block-2s{
+    background-image:url(./img/1.png) ;
+}
+    .text__3-s{
+    color: #ffffff;
+}
+    .text__6-s{
+    color: #ffffff;
+}
+    .text__5-s{
+    color: #ffffff;
+}
