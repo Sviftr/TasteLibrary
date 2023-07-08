@@ -83,6 +83,34 @@
   text-decoration: none;
 }
 
+.main__galereV {
+  max-width: 1300px;
+  height: 830px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__galereV-h {
+  font-family: BelL MT;
+  font-size: 64px;
+  font-weight: 700;
+  text-decoration: underline;
+  color: #000000;
+}
+
+.main__galereV-text {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.carousel-inner {
+  width: 900px;
+  height: 500px;
+}
+
 .main {
   max-width: 1300px;
   margin: 0 auto;
