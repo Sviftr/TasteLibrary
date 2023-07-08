@@ -116,3 +116,44 @@
   margin: 0 auto;
   padding: 10px;
 }/*# sourceMappingURL=style.css.map */
+/* sofia */
+.block__1s{
+  max-width: 1200px;
+  background-color: #021222;
+  }
+  .text__1-s{
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: Bell MT;
+  font-size: 60px;
+  
+}
+  .text__2-s{
+  color: #ffffff;
+  font-family: Bell MT;
+  font-size: 20px;
+  
+}
+.block-2s{
+  max-width: 1440px;
+  height:800px ;
+  background-image:url(./SOFIA/img/1.png) ;
+}
+  .text__3-s{
+  color: #ffffff;
+  font-family: Bell MT;
+  font-size: 20px;
+}
+  .text__6-s{
+  color: #ffffff;
+  font-family: Bell MT;
+  font-size: 40px;
+  text-align: center;
+}
+  .text__5-s{
+  font-family: Bell MT;
+  color: #ffffff;
+  font-size: 65px;
+  text-align: center;
+}
+/* sofia */
