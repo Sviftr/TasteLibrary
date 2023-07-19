@@ -90,6 +90,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 50px 0 0 0;
     &-con{
         width: 400px;
         display: flex;
@@ -109,6 +110,39 @@ body{
         justify-content: center;
         align-items: center;
         border: 1px solid #000;
+    }
+}
+.info{
+    width: 1300px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 0 0;
+    &__text-box{
+        width: 45%;
+        height: 300px;
+    }
+    &__text-box_h{
+        color: #141414;
+        font-family: Playfair Display;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%; 
+        letter-spacing: -0.45px;
+    }
+    &__text-box_text{
+        color: #555;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165%; 
+    }
+    &__photo-box{
+        width: 500px;
+        height: 500px;
     }
 }
 
