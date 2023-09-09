@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks</title>
+    <link rel="stylesheet" href="./drinks.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather&family=Montserrat&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<header class="header">
+    <div class="header__logo"><img src="../VENAKA/venaka__img/logog4.png" alt="" width="50px"></div>
+    <nav class="header__nav">
+        <input type="checkbox" class="header__input" id="mobile">
+        <label for="mobile" class="header__label">
+            <div class="burger"><div class="burger__linia"></div></div>
+        </label>
+        <ul class="nav__ul">
+            <a href="../index.html" class="header__linkv"><li class="nav__ul_li">ГОЛОВНА</li></a>
+            <a href="../VENAKA/venaka.html" class="header__linkv"><li class="nav__ul_li">КНИГАРНЯ</li></a>
+            <a href="../Test group HTML&CSS/drinks.html"class="header__linkv"><li class="nav__ul_li">ІСТОРІЯ</li></a>
+            <a href="../sofia/index.html"class="header__linkv"><li class="nav__ul_li">РЕЄСТРАЦІЯ</li></a>
+        </ul>
+    </nav>
+</header>
+<body>
+    <main class="main-G">
+        <div class="main__cofee-G">
+            <div class="main__cofee-photo">
+                <img class="cofee__photo-G" src="./Coffee.jfif" alt="">
+            </div>
+            <div class="cofee-button">
+                Coffee
+            </div>
+        </div>
+        <div class="main__about-G">
+            <div class="main__about-info">
+                <h1 class="main__about-head">Taste library</h1>
+                <p class="main__about-text">Tut bude shos czicave pro cavy, a poki checaite</p>
+            </div>
+            <div class="about-button">
+                More
+            </div>
+        </div>
+        <div class="main__food-G">
+            <div class="main__food-photo">
+                <img class="food__photo-G" src="./tasty.jpeg" alt="">
+            </div>
+                <input class="food__input" id="Nazva" type="checkbox">
+                <label class="food__label" for="Nazva">
+                    <div class="food-button">
+                        Menu
+                    </div>
+                </label>
+                <div class="food__modal">
+                    <div class="food__modal-head">Food menu</div>
+                        <div class="food__modal-text">
+                            Тістечко Шу.....................100гр/60₴
+                            Чізкейк.........................150гр/60₴
+                            Наполеон........................200гр/60₴
+                            Макарун.........................30гр/50₴
+                            Тірамісу........................100гр/50₴
+                            Пончик..........................40гр/60₴
+                            Круасан.........................50гр/50₴
+                        </div>
+                </div>
+        </div>
+    </main>
+    <main class="main-G">
+        <div class="main__new-G">
+            <img class="main__new-image" src="./New cof.jfif" alt="">
+            <div class="main__new-info">
+                <h2 class="main__new-head">Наше меню оновлено!</h2>
+                <p class="main__new-text">В нашому меню були додані нові види кави, встигніть їх придбати за найкрутішими знижками</p>
+                <div class="main__new-button">Подробніше</div>
+            </div>
+        </div>
+    </main>
+    <main class="main-G">
+        <div class="main__block-2">
+            <div class="main__block-text">Ми прагнемо того, щоб ранок кожної людини починався з чашечки смачної чорної кави, яка буде заряджати її на цілий день</div>
+            <div class="main__block-button">Наша історія</div>
+        </div>
+    </main>
+    <div class="main__G-reservation">
+        <div class="reservation__G">
+            <p class="reservation-info__G">
+                <h1 class="reservation__title">Зарезервувати місце</h1>
+                <p class="reservation__text">Вітаємо у нашій кав'ярні</p>
+            </p>
+            <div class="reservation-inputs__G">
+                <div class="inputs__G">
+                    <p class="">Ім'я</p>
+                    <input type="text" class="input__G">
+                </div>
+                <div class="inputs__G">
+                    <p class="">Номер телефону</p>
+                    <input type="text" class="input__G">
+                </div>
+                <div class="inputs__G">
+                    <p class="">Кількість людей</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Самотність</option>
+                        <option value="1">Побачення</option>
+                        <option value="2">Сім'я</option>
+                        <option value="3">Велика компанія</option>
+                    </select>
+                </div>
+                <div class="inputs__G">
+                    <p class="">Дата</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Сьогодні</option>
+                        <option value="1">Завтра</option>
+                        <option value="2">На цьому тижні</option>
+                        <option value="3">Своя дата</option>
+                    </select>
+                </div>
+                <div class="inputs__G">
+                    <p class="">Час</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Ранок</option>
+                        <option value="1">День</option>
+                        <option value="2">Вечір</option>
+                        <option value="3">Ніч</option>
+                    </select>
+                </div>
+            </div>
+            <div class="reservation-button__G">Замовити</div>
+        </div>
+    </div>
+    <main class="container-greg">
+        <div class="section-g">
+            <div class="section-g__info">
+                <div class="section-g__title">Історія кави</div>
+                
+                <div class="section-g__text">У глибоких лісах Ефіопії молода пастушка Калі відкрила червоні ягоди, які давали бадьорість. Обсмаживши їх, вона створила перший кавовий напій. Кава стала популярною серед місцевих мешканців та поширилася по світу. Історія Калі дала початок кавові, яка принесла радість багатьом</div>
+
+                <div class="section-g__button">Клац</div>
+            </div>
+
+            <img src="../greg coffe part/IMG/pngwing.com (2).png" alt="nope" class="section-g__img">
+        </div>
+
+        <div class="section-g">
+            <div class="section-g__info">
+                <div class="section-g__title">Сама популярна кава в світі</div>
+                
+                <div class="section-g__text">Самою популярною кавою в світі безперечно є Arabica. Вона росте в багатьох країнах, включаючи Бразилію, Колумбію та Ефіопію. Arabica відома своєю ніжною смаковою палітрою, яка може включати нотки фруктів, квітів і ягід. Ця кава має менше кофеїну порівняно з іншими видами кави, що робить її більш доступною для тих, хто не переносить велику кількість кофеїну. Arabica використовується для приготування вишуканих сортів кави, таких як Еспресо та Капучино. Цей сорт кави часто росте на високогірних плантаціях, що надає йому особливий смак і аромат. Arabica дуже популярна серед любителів вишуканих напоїв та гурманів кави.</div>
+
+                <div class="section-g__button">Клац</div>
+            </div>
+
+            <img src="../greg coffe part/IMG/pngwing.com (3).png" alt="nope" class="section-g__img">
+        </div>
+
+        <div class="section-g">
+            <div class="section-g__info">
+                <div class="section-g__title">Чому книги надихають</div>
+                
+                <div class="section-g__text">Книжки - це магія слова, що здатна розкрити нам найглибші відчуття та думки. Вони переносять нас у світи невідомі, розширюють наші горизонти і запускають фантазію в політ. Коли ми поглиблюємося у сторінки книги, ми розмовляємо зі словами автора, відчуваємо їхні емоції та роздуми. Читання може змінити нашу думку, навчити новому, і надати відповіді на питання, які ми вже давно шукали.
+
+                    Книги вчать нас бачити світ через очі інших людей, розуміти їхні мрії та болі. Вони дають нам можливість пережити безліч пригод, не виходячи зі зручного крісла. Іноді книги стають справжнім опіумом для душі, вони дарують нам відпочинок від повсякденності і відкривають двері до світів, які ми ніколи не могли би зустріти в реальному житті. Коли ми закриваємо книгу, ми часто залишаємо її сторінки з новими думками, враженнями та натхненням.
+                    
+                    Книги - це віконце у світ, де кожна сторінка - це новий горизонт, новий шанс для розумового зростання і найкращий друг для невідомої подорожі.</div>
+
+                <div class="section-g__button">Клац</div>
+            </div>
+
+            <img src="../greg coffe part/IMG/brabooks.png" alt="nope" class="section-g__img">
+        </div>
+    </main>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    </style>
+<div class="body-gleb">
+    <div class="main__G">
+        <div class="reservation__G">
+            <p class="reservation-info__G">
+                <h1 class="reservation__title">Reservation</h1>
+                <p class="reservation__text">Welcome to your visits</p>
+            </p>
+            <div class="reservation-inputs__G">
+                <div class="inputs__G">
+                    <p class="">Name</p>
+                    <input type="text" class="input__G">
+                </div>
+                <div class="inputs__G">
+                    <p class="">Phone number</p>
+                    <input type="text" class="input__G">
+                </div>
+                <div class="inputs__G">
+                    <p class="">People</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Самотність</option>
+                        <option value="1">Побачення</option>
+                        <option value="2">Сім'я</option>
+                        <option value="3">Велика компанія</option>
+                    </select>
+                </div>
+                <div class="inputs__G">
+                    <p class="">Date</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Сьогодні</option>
+                        <option value="1">Завтра</option>
+                        <option value="2">На цьому тижні</option>
+                        <option value="3">Своя дата</option>
+                    </select>
+                </div>
+                <div class="inputs__G">
+                    <p class="">Time</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Ранок</option>
+                        <option value="1">День</option>
+                        <option value="2">Вечір</option>
+                        <option value="3">Ніч</option>
+                    </select>
+                </div>
+            </div>
+            <div class="reservation-button__G">Book reservation</div>
+        </div>
+    </div>
+    <div class="footer__G">
+        <div class="footer-logo__G">
+            <img src="" alt="">
+            Logo
+        </div>
+        <ul class="footer__menu">
+            <li class="menu-item__G">
+                <a href="">
+                    Home
+                </a>
+            </li>
+            <li class="menu-item__G">
+                <a href="">
+                    Menu
+                </a>
+            </li>
+            <li class="menu-item__G">
+                <a href="">
+                    About cafe
+                </a>
+            </li>
+            <li class="menu-item__G">
+                <a href="./drinks.html">
+                    Drinks
+                </a>
+            </li>
+            <li class="menu-item__G">
+                <a href="">
+                    Our books
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="../bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./venaka.css">
     <link rel="stylesheet" href="./venaka.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather&family=Montserrat&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Code+Pro&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -13,56 +19,225 @@
     <header class="header">
         <div class="header__logo"><img src="./venaka__img/logog4.png" alt="" width="50px"></div>
         <nav class="header__nav">
+            <input type="checkbox" class="header__input" id="mobile">
+            <label for="mobile" class="header__label">
+                <div class="burger"><div class="burger__linia"></div></div>
+            </label>
             <ul class="nav__ul">
-                <a href="./index.html" class="header__linkv"><li class="nav__ul_li">HOME</li></a>
-                <a href="./SOFIA/sofia.html" class="header__linkv"><li class="nav__ul_li">LOG-IN</li></a>
-                <a href="./VENAKA/venaka.html"class="header__linkv"><li class="nav__ul_li">MENU-1</li></a>
-                <a href="./HRUHHORY/hruhhory.html"class="header__linkv"><li class="nav__ul_li">MENU-2</li></a>
-                <a href="./GLEB/gleb.html"class="header__linkv"><li class="nav__ul_li">MENU-3</li></a>
+                <a href="../index.html" class="header__linkv"><li class="nav__ul_li">ГОЛОВНА</li></a>
+                <a href="./venaka.html" class="header__linkv"><li class="nav__ul_li">КНИГАРНЯ</li></a>
+                <a href="../Test group HTML&CSS/drinks.html"class="header__linkv"><li class="nav__ul_li">ІСТОРІЯ</li></a>
+                <a href="../sofia/index.html"class="header__linkv"><li class="nav__ul_li">РЕЄСТРАЦІЯ</li></a>
             </ul>
         </nav>
     </header>
     <div class="header__body">
-        <div class="text__box">
-            <h1 class="text__box-h">mind is power <br> and book is <br> a sword</h1>
-            <p class="text__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quaerat perspiciatis iusto deleniti  tempore ut?</p>
-            <div class="text__box-button">learn more</div>
+        <div class="text">
+            <h1 class="text__h">РОЗУМ СИЛА <br> А МЕЧ <br> ЦЕ КНИГА</h1>
+            <p class="text__text">
+                "Розум" — безмежний потенціал людської мисли<br> вивчайте його в книзі "Розум: Відкриття і Розвиток"</p>
+            <input type="checkbox" class="input__conteiner" id="con">
+            <label for="con" class="lable__con">
+                <div class="text__button">learn more <div class="text__button_book"><i class="fa-solid fa-book"></i></div></div>
+            </label>
+            <div class="box__video">Книги - це письмові твори, які містять різноманітний контент: від романів і наукових досліджень до поетичних збірок та навчальних матеріалів. Вони втілюють ідеї, емоції, знання та фантазію авторів. Книги можуть розважати, навчати, розширювати кругозір та впливати на суспільство. Через сторінки книг відкривається можливість подорожувати у часі та просторі, поглиблювати розуміння людської природи та культури. Книги є невід'ємною частиною культурної спадщини та засобом передачі інформації поколінням.</div>
         </div>
         <div class="photo__box"><img src="./venaka__img/pngwing.com (1).png" alt=""></div>
     </div>
 </div>
 <main class="main">
+    <h2 class="title">ХІТ МІСЯЦЯ</h2>
     <div class="book__conteiner">
         <div class="book__conteiner-con">
             <div class="book__conteiner-con_photo"><img src="./venaka__img/a802a93a3ac5d73ffa9bd47f78cf2b6f.jpg" alt="" width="50%"></div>
-            <h3 class="book__conteiner-con_h">James Dashner</h3>
-            <p class="book__conteiner-con_text">the one who runs <br>through the maze</p>
-            <div class="book__conteiner-con_button">READ MORE</div>
+            <h3 class="book__conteiner-con_h">Джеймс Дешер</h3>
+            <p class="book__conteiner-con_text">Той що біжить лабіринтом</p>
+            <div class="book__conteiner-con_button">ЧИТАТИ БІЛЬШЕ</div>
         </div>
         <div class="book__conteiner-con">
             <div class="book__conteiner-con_photo"><img src="./venaka__img/0400b4ba54a4e0641367b6b7c85b61ed.jpg" alt="" width="50%"></div>
-            <h3 class="book__conteiner-con_h">James Dashner</h3>
-            <p class="book__conteiner-con_text">the one who runs through <br>the maze of trial by fire</p>
-            <div class="book__conteiner-con_button">READ MORE</div>
+            <h3 class="book__conteiner-con_h">Джеймс Дешер</h3>
+            <p class="book__conteiner-con_text">Той що біжить лабіринтом <br> Випробування вогнем</p>
+            <div class="book__conteiner-con_button">ЧИТАТИ БІЛЬШЕ</div>
         </div>
         <div class="book__conteiner-con">
             <div class="book__conteiner-con_photo"><img src="./venaka__img/729744_1_original.jpg" alt="" width="50%"></div>
-            <h3 class="book__conteiner-con_h">James Dashner</h3>
-            <p class="book__conteiner-con_text"> the one who runs through the <br>labyrinth is a cure for death</p>
-            <div class="book__conteiner-con_button">READ MORE</div>
+            <h3 class="book__conteiner-con_h">Джеймс Дешер</h3>
+            <p class="book__conteiner-con_text"> Той що біжить лабіринтом <br>Ліки від смерті</p>
+            <div class="book__conteiner-con_button">ЧИТАТИ БІЛЬШЕ</div>
         </div>
     </div>
     <div class="info">
         <div class="info__text-box">
-            <h2 class="info__text-box_h">reading a book <br> improves yours <br> mind</h2>
-            <p class="info__text-box_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum in commodi veritatis ipsam eveniet, autem, placeat fuga natus accusantium exercitationem sunt repudiandae assumenda dolorem id dicta ut deleniti fugit nulla! Nihil cumque minus voluptatibus quae, sapiente consectetur nesciunt quo omnis?</p>
+            <h2 class="info__text-box_h">ЧИТАННЯ КНИГ <br> ПРОКАЧУЄ ТВІЙ <br> РОЗУМ</h2>
+            <p class="info__text-box_text">Книги - ключ до розумового розвитку. Вони розширюють знання, сприяють аналітичному мисленню, вдосконалюють словник, розвивають креативність і емпатію. Через читання, ми вчимося від інших думок, набуваємо досвід, розбираємося у складних питаннях. Це засіб самоосвіти та заспокоєння для розуму.</p>
         </div>
-        <div class="info__photo-box"><img src="./venaka__img/tumblr_n00l0l4qkq1qg10lgo1_500_0.jpg" alt=""></div>
+        <div class="info__photo-box"><img src="./venaka__img/depositphotos_165863480-stock-photo-happy-student-with-a-pile.jpg" alt=""></div>
+    </div>
+    <div class="infoBIG">
+        <div class="infoBIG__title"><h2  class="infoBIG__title-h">ЗАМОВЛЯЙ КНИГИ  <br> І НАСОЛОДЖУЙСЯ ДНЕМ</h2></div>
+        <div class="infoBIG__conteiner">
+            <div class="infoBIG__conteiner-con">
+                <div class="con__photo"><img src="./venaka__img/openbooks.jpg" alt="" width="600px" height="401px"></div>
+                <div class="con__text">
+                    <div class="con__text-block">
+                        <div class="con__text-block-p1">"Мисливець на оленів"................................вартість 12$</div>
+                        <div class="con__text-block-p2">Драма, пошук себе, життєвий шлях.</div>
+                    </div>
+                    <div class="con__text-block">
+                        <div class="con__text-block-p1">"Гаррі Поттер і філософський камінь".................вартість 15$</div>
+                        <div class="con__text-block-p2">Фентезі, пригоди, юнак Гаррі, чарівництво.</div>
+                    </div>
+                    <div class="con__text-block">
+                        <div class="con__text-block-p1">"Великий Гетсбі".....................................вартість 10$</div>
+                        <div class="con__text-block-p2">Роман, 1920-ті, американський сон.</div>
+                    </div>
+                    <div class="con__text-block">
+                        <div class="con__text-block-p1">"Шлях до мужності"...................................вартість 8$</div>
+                        <div class="con__text-block-p2">Саморозвиток, мотивація, біографія.</div>
+                    </div>
+                    <div class="con__text-button">TEXT</div>
+                </div>
+            </div>
+        <div class="infoBIG__conteiner-con">
+            <div class="con__text">
+                <div class="con__text">
+                    <div class="con__text-block">
+                        <div class="con__text-block-p1">"Алхімік"............................................вартість 9$</div>
+                        <div class="con__text-block-p2">Духовний розвиток, скарби, осмислення життя.r</div>
+                    </div>
+                    <div class="con__text-block">
+                        <div class="con__text-block-p1">"1984"...............................................вартість 11$</div>
+                        <div class="con__text-block-p2">Дистопія, контроль, свобода мислення.</div>
+                    </div>
+                    <div class="con__text-block">
+                        <div class="con__text-block-p1">"Таємниці Нью-Йорка".................................вартість 14$</div>
+                        <div class="con__text-block-p2">Містичність, розслідування, велике як життя.</div>
+                    </div>
+                    <div class="con__text-block">
+                        <div class="con__text-block-p1">"Ігри розуму"........................................вартість 13$</div>
+                        <div class="con__text-block-p2">Трилер, головоломки, коварний вбивця.</div>
+                    </div>
+                    <div class="con__text-button">TEXT</div>
+                </div>
+            </div>
+            <div class="con__photo"><img src="./venaka__img/C.30.9-600x400.jpg.webp" alt="" width="600px" height="401px"></div>
+        </div>
+    </div>
+    <div class="reviews">
+        <h2 class="reviews__h">ВІДГУКИ</h2>
+        <div class="reviews__blok">
+            <div class="reviews-con">
+                <p class="reviews-text">Кафе з книгами - приємне місце для відпочинку. Українська література тут завжди вражає. Смачна кава та атмосфера залучають. Дякую за гостинність! </p>
+                <div class="reviews__logo"><div class="element"></div><div class="element"></div></div>
+                <div class="reviews-avatar">
+                    <div class="avatar"><img src="./venaka__img/завантаження.jpg" alt="" width="79%"></div>
+                    <div class="avatar__info">
+                        <div class="avatar__info-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                        <p class="avatar__info-name">KatPanzer</p>
+                        <p class="avatar__info-country">Germany</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-con">
+                <p class="reviews-text">Кафе з книгами - чудовий спосіб об'єднати культури. Українська мова та література тут вражають. Дякую за гостинність!</p>
+                <div class="reviews__logo"><div class="element"></div> <div class="element"></div></div>
+                <div class="reviews-avatar">
+                    <div class="avatar"><img src="./venaka__img/1658813253_1.jpg" width="79% alt=""></div>
+                    <div class="avatar__info">
+                        <div class="avatar__info-star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                        <p class="avatar__info-name">BOBridge</p>
+                        <p class="avatar__info-country">USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 
-
+<div class="body-gleb">
+    <div class="main__G">
+        <div class="reservation__G">
+            <p class="reservation-info__G">
+                <h1 class="reservation__title">Reservation</h1>
+                <p class="reservation__text">Welcome to your visits</p>
+            </p>
+            <div class="reservation-inputs__G">
+                <div class="inputs__G">
+                    <p class="">Name</p>
+                    <input type="text" class="input__G">
+                </div>
+                <div class="inputs__G">
+                    <p class="">Phone number</p>
+                    <input type="text" class="input__G">
+                </div>
+                <div class="inputs__G">
+                    <p class="">People</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Самотність</option>
+                        <option value="1">Побачення</option>
+                        <option value="2">Сім'я</option>
+                        <option value="3">Велика компанія</option>
+                    </select>
+                </div>
+                <div class="inputs__G">
+                    <p class="">Date</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Сьогодні</option>
+                        <option value="1">Завтра</option>
+                        <option value="2">На цьому тижні</option>
+                        <option value="3">Своя дата</option>
+                    </select>
+                </div>
+                <div class="inputs__G">
+                    <p class="">Time</p>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Ранок</option>
+                        <option value="1">День</option>
+                        <option value="2">Вечір</option>
+                        <option value="3">Ніч</option>
+                    </select>
+                </div>
+            </div>
+            <div class="reservation-button__G">Book reservation</div>
+        </div>
+    </div>
+    <div class="footer__G">
+        <div class="footer-logo__G">
+            <img src="" alt="">
+            Logo
+        </div>
+        <ul class="footer__menu">
+            <li class="menu-item__G">
+                <a href="">
+                    Home
+                </a>
+            </li>
+            <li class="menu-item__G">
+                <a href="">
+                    Menu
+                </a>
+            </li>
+            <li class="menu-item__G">
+                <a href="">
+                    About cafe
+                </a>
+            </li>
+            <li class="menu-item__G">
+                <a href="./drinks.html">
+                    Drinks
+                </a>
+            </li>
+            <li class="menu-item__G">
+                <a href="">
+                    Our books
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 
     <script src="../bootstrap-5.3.0-alpha3-dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/6d7cb93199.js" crossorigin="anonymous"></script>
 </body>
 </html>
